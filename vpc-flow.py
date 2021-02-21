@@ -4,7 +4,6 @@ import os
 
 def lambda_handler(event, context):
     print(event)
-    #eventName = event.get(detail).get(eventName)
     
     try:
         vpc_id = event['responseElements']['vpc']['vpcId']
